@@ -17,7 +17,6 @@ namespace WiseTechGlobalTask2
         }
         public static int solution(int[]a)
         {
-            
             int res = 0;
             var sum = 0;
             for (int i = 0; i < a.Length; i++)
@@ -25,9 +24,7 @@ namespace WiseTechGlobalTask2
                 sum += a[i];
                 res++;
                 if (sum >= a.Length)
-                {
                     break;
-                }
             }
             return res;
         }
